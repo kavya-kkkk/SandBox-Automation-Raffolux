@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.34">
+    <testcase classname="PointStore UI and Functionality" name="Store text on points_store Page" time="0.09">
+        <system-out><![CDATA[Given I am on the points_store page.........................................passed
+Then I should see the text "Store"..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="PointStore UI and Functionality" name="Earned text on points_store Page" time="0.003">
+        <system-out><![CDATA[Given I am on the points_store page.........................................passed
+Then I should see the text "Earned".........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="PointStore UI and Functionality" name="Navigation By clicking the Earned tab" time="0.001">
+        <system-out><![CDATA[Given I am on the points_store page.........................................passed
+When I click on the Earned tab..............................................passed
+Then I should not see the text "LATEST OFFERS"..............................passed
+Then I should see the text "you have Raffolux points" and the count of points available.passed
+]]></system-out>
+    </testcase>
+</testsuite>
